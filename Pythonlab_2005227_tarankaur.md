@@ -1,5 +1,73 @@
-******Python program to print the elements of an array***
 
+
+**Guru Nanak Dev Engineering College, Ludhiana**
+
+
+
+
+
+**Course Name- Programming in Python Lab**
+
+
+**Course Code: PGCA-207**
+
+
+
+
+**Submitted To:**										
+
+Prof. Satinderpal Singh	
+
+
+								       
+**Submitted By:**
+
+Taran Kaur
+
+**Roll No.** 2029009
+
+ **URN:** 20052227
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+|  S No.  |                                                                  Experiment Name                                                                 | Remarks |
+|:-------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:-------:|
+|    1.   | Write a Python program to create an array of 5 elements and display the elements of an array items. Access each individual items through indexes |         |
+|    2.   | Write a python program to reverse the order of the items in the array.                                                                           |         |
+|    3.   | Write a Python program to append a new item to the end of the array.                                                                             |         |
+|    4.   | Write a python program to remove a specified item using the index from an array.                                                                 |         |
+|    5.   | Write a Python program to get the length of an array.                                                                                            |         |
+|    6.   | Write a program for binary search                                                                                                                |         |
+|    7.   | Write a python program for sequential or linear search                                                                                           |         |
+|    8.   | Write a python program to sort list of elements using bubble sort algorithm                                                                      |         |
+|    9.   | Write a python program to sort list of elements using selection sort algorithm                                                                   |         |
+|   10.   | Write a python program to sort list of elements using insertion sort algorithm                                                                   |         |
+|   11.   | Write a python program to sort list of elements using quick sort algorithm                                                                       |         |
+|   12.   | Write a python program to search a specific item in a singly linked list and return true if the item is found otherwise false                    |         |
+|   13.   | Write a python program to find the size of singly linked list                                                                                    |         |
+|   14.   | Write a program to search specific item in a singly linked list and return the item if the item is found otherwise return false                  |         |
+|   15.   | Write a python program to delete the first item from singly linked list                                                                          |         |
+|   16.   | Write a python program to create circular linked list                                                                                            |         |
+|   17.   | Write a python program to implement stack and its operations using list                                                                          |         |
+|   18.   | Write python program to implement queue and its operations using list                                                                            |         |
+|   19.   | Write a program to create a balanced binary search tree (bst) using an array (given) elements where array elements are stored in ascending order |         |
+|   20.   | Write a python program to find kth smallest element in a given binary search tree                                                                |         |
+
+                     
+
+
+
+**#1 Python program to print the elements of an array**
+
+**Code**
+```Python
 #Initialize array  
 arr = [0,1, 2, 3, 4, 5]; 
 print("Elements of given array: "); 
@@ -11,14 +79,19 @@ print"3rd element:",arr[2];
 print"4th element:",arr[3];
 print"5th element:",arr[4];
 print"6th element:",arr[5];
-
-output:![py1](https://user-images.githubusercontent.com/79211429/121027166-5fd14600-c7c4-11eb-9f72-c3311119ea95.png)
-
-
+```
+**output:**
 
 
-***write a python program to reverse the order of the items in the array.***
+![py1](https://user-images.githubusercontent.com/79211429/121027166-5fd14600-c7c4-11eb-9f72-c3311119ea95.png)
 
+
+
+
+**#2 write a python program to reverse the order of the items in the array.**
+
+**Code**
+```Python
 #The original array
 
 arr = [11, 22, 33, 44, 55]
@@ -28,25 +101,37 @@ print("Before reversal Array is :",arr)
 
 arr.reverse() #reversing using reverse()
 print("After reversing Array:",arr)
+```
 
-output:![py2](https://user-images.githubusercontent.com/79211429/121026567-e174a400-c7c3-11eb-9f55-291f03e1f409.png)
+**output:**
+
+
+![py2](https://user-images.githubusercontent.com/79211429/121026567-e174a400-c7c3-11eb-9f55-291f03e1f409.png)
 
 
 
 
-***Write a Python program to append a new item to the end of the array.***
-
+ **#3 Write a Python program to append a new item to the end of the array.**
+ 
+**Code**
+```Python
 my_input = ['Engineering', 'Medical'] 
 my_input.append('Science') 
 print(my_input)
+```
 
-output:![c](https://user-images.githubusercontent.com/79211429/121028510-86dc4780-c7c5-11eb-9ff6-a397b50fab21.png)
+**output:**
+
+
+![c](https://user-images.githubusercontent.com/79211429/121028510-86dc4780-c7c5-11eb-9ff6-a397b50fab21.png)
 
 
 
 
-***write a python program to remove a specified item using the index from an array.***
+**#4 write a python program to remove a specified item using the index from an array.**
 
+**Code**
+```Python
 # Original array
 arr= [1,2,3,4,5,6]
 
@@ -61,28 +146,39 @@ arr.remove(4)
 
 # Printing the array
 print(arr)
+```
 
-output:![d](https://user-images.githubusercontent.com/79211429/121028368-64e2c500-c7c5-11eb-8ea8-517e266715b5.png)
-
-
-
+**output:**
 
 
-***Write a Python program to get the length of an array.***
+![d](https://user-images.githubusercontent.com/79211429/121028368-64e2c500-c7c5-11eb-8ea8-517e266715b5.png)
 
+
+
+
+
+**#5 Write a Python program to get the length of an array.***
+
+**Code**
+```Python
 import array 
 arr = [1,2,3,4,'PYTHON']
 print("Array elements: ",arr)
 print("Length of array:",len(arr))
-
-output: ![e](https://user-images.githubusercontent.com/79211429/121028801-bc813080-c7c5-11eb-96f9-e0ed63cb0aa5.png)
-
-
+```
+**output: **
 
 
+![e](https://user-images.githubusercontent.com/79211429/121028801-bc813080-c7c5-11eb-96f9-e0ed63cb0aa5.png)
 
-***write a program for binary search***
 
+
+
+
+**#6 write a program for binary search***
+
+**Code**
+```Python
 def binary_search(arr, low, high, x):
  
     # Check base case
@@ -118,15 +214,21 @@ if result != -1:
     print("Element is present at index", str(result))
 else:
     print("Element is not present in array")
-    
- output:![expt6](https://user-images.githubusercontent.com/79211429/121030128-d3745280-c7c6-11eb-9bff-037dfc4396bb.png)
+   ``` 
+ 
+ **output:**
+ 
+ 
+  ![expt6](https://user-images.githubusercontent.com/79211429/121030128-d3745280-c7c6-11eb-9bff-037dfc4396bb.png)
 
 
 
 
 
-***write a python program for sequential or linear search***
+**#7 write a python program for sequential or linear search***
 
+**Code**
+```Python
 def linearsearch(arr, x):
    for i in range(len(arr)):
       if arr[i] == x:
@@ -135,16 +237,22 @@ def linearsearch(arr, x):
 arr = ['t','u','t','o','r','i','a','l']
 x = 'a'
 print("element found at index "+str(linearsearch(arr,x)))
+```
 
-output:![exp7](https://user-images.githubusercontent.com/79211429/121031490-023ef880-c7c8-11eb-882c-fa87519b384e.png)
-
-
-
+**output:**
 
 
+![exp7](https://user-images.githubusercontent.com/79211429/121031490-023ef880-c7c8-11eb-882c-fa87519b384e.png)
 
-***write a python program to sort list of elements using bubble sort algorithm***
 
+
+
+
+
+**#8 write a python program to sort list of elements using bubble sort algorithm**
+
+**Code**
+```Python
 def bubbleSort(nlist):
     for passnum in range(len(nlist)-1,0,-1):
         for i in range(passnum):
@@ -156,15 +264,21 @@ def bubbleSort(nlist):
 nlist = [14,46,43,27,57,41,45,21,70]
 bubbleSort(nlist)
 print(nlist)
+```
 
-output:![expt8](https://user-images.githubusercontent.com/79211429/121034871-ff91d280-c7ca-11eb-8455-1ad6a8162369.png)
-
-
-
+**output:**
 
 
-***write a python program to sort list of elements using selection sort algorithm***
+![expt8](https://user-images.githubusercontent.com/79211429/121034871-ff91d280-c7ca-11eb-8455-1ad6a8162369.png)
 
+
+
+
+
+**#9 write a python program to sort list of elements using selection sort algorithm**
+
+**Code**
+```Python
 def selectionSort( itemsList ):
     n = len( itemsList )
     for i in range( n - 1 ):
@@ -185,28 +299,39 @@ def selectionSort( itemsList ):
 el = [21,6,9,33,3]
 
 print(selectionSort(el))
+```
 
-output: ![python9](https://user-images.githubusercontent.com/79211429/120997984-466cd180-c7a5-11eb-934c-95c42f6cb833.jpeg)
+**output: **
+
+
+![python9](https://user-images.githubusercontent.com/79211429/120997984-466cd180-c7a5-11eb-934c-95c42f6cb833.jpeg)
 
 
 
-***write a python program to sort list of elements using insertion sort algorithm***
+**#10 write a python program to sort list of elements using insertion sort algorithm**
 
+**Code**
+```Python
 arr = [12, 11, 13, 5, 6]
 insertionSort(arr)
 print ("Sorted array is:")
 for i in range(len(arr)):
     print ("%d" %arr[i])
+  ```
     
-    output:![python10](https://user-images.githubusercontent.com/79211429/120999629-f8f16400-c7a6-11eb-8d7c-ddd29c40c48d.jpeg)
+**Output:**
+
+
+ ![python10](https://user-images.githubusercontent.com/79211429/120999629-f8f16400-c7a6-11eb-8d7c-ddd29c40c48d.jpeg)
     
-    
-    
+        
     
 
 
-***write a python program to sort list of elements using quick sort algorithm***
+**#11 write a python program to sort list of elements using quick sort algorithm**
 
+**Code**
+```Python
 def quicksort(x):
     if len(x) == 1 or len(x) == 0:
         return x
@@ -226,15 +351,22 @@ def quicksort(x):
 alist = [54,26,93,17,77,31,44,55,20]
 quicksort(alist)
 print(alist)
+```
 
-output: ![python11](https://user-images.githubusercontent.com/79211429/121000060-6dc49e00-c7a7-11eb-8dba-4a86df06cacb.jpeg)
-
-
-
+**output: **
 
 
+![python11](https://user-images.githubusercontent.com/79211429/121000060-6dc49e00-c7a7-11eb-8dba-4a86df06cacb.jpeg)
 
-***write a python program to search a specific item in a singly linked list and return true if the item is found otherwise false***
+
+
+
+
+
+**#12 write a python program to search a specific item in a singly linked list and return true if the item is found otherwise false**
+
+**Code**
+```Python
 class Node:
     def _init_(self, data=None):
         self.data = data
@@ -271,16 +403,20 @@ items.append_item('Java')
 
 for val in items.iterate_item():
     print(val)
-    
-    output:![python12](https://user-images.githubusercontent.com/79211429/121000364-c1cf8280-c7a7-11eb-9793-1be5e0f31e66.jpeg)
+```
+   
+ **output:**
+ 
+ 
+![python12](https://user-images.githubusercontent.com/79211429/121000364-c1cf8280-c7a7-11eb-9793-1be5e0f31e66.jpeg)
 
 
 
 
+**#13 write a python program to find the size of singly linked list**
 
-
-***write a python program to find the size of singly linked list***
-
+**Code**
+```Python
 class Node:
     # Singly linked node
     def _init_(self, data=None):
@@ -324,17 +460,21 @@ for val in items.iterate_item():
     print(val)
 
 print("\nSize of the list:",items.count)
+```
 
-output: ![python13](https://user-images.githubusercontent.com/79211429/121002577-1e33a180-c7aa-11eb-8131-b63e3e411183.jpeg)
-
-
-
+**Output:**
 
 
+![python13](https://user-images.githubusercontent.com/79211429/121002577-1e33a180-c7aa-11eb-8131-b63e3e411183.jpeg)
 
 
-***write a program to search specific item in a singly linked list and return the item if the item is found otherwise return false***
 
+
+
+**#14 write a program to search specific item in a singly linked list and return the item if the item is found otherwise return false**
+
+**Code**
+```Python
 class Node:
     # Singly linked node
     def _init_(self, data=None):
@@ -389,15 +529,21 @@ if items.search_item('C++'):
     print("True")
 else:
     print("False")
-    
- output:![python14](https://user-images.githubusercontent.com/79211429/121002879-77033a00-c7aa-11eb-933a-0f24a6a57299.jpeg)
+   ```
+   
+ **output:**
+ 
+ 
+ ![python14](https://user-images.githubusercontent.com/79211429/121002879-77033a00-c7aa-11eb-933a-0f24a6a57299.jpeg)
  
  
  
 
  
- ***write a python program to delete the first item from singly linked list***
+ **#15 write a python program to delete the first item from singly linked list**
  
+ **Code**
+```Python
  class Node:
     # Singly linked node
     def _init_(self, data=None):
@@ -458,15 +604,20 @@ print("\nAfter removing the first item from the list:")
 items.delete_item('PHP')
 for val in items.iterate_item():
     print(val)
-    
-    output: ![python15](https://user-images.githubusercontent.com/79211429/121003167-d7927700-c7aa-11eb-85a7-f35ff7c2c569.jpeg)
+``` 
+**Output:**
+
+
+ ![python15](https://user-images.githubusercontent.com/79211429/121003167-d7927700-c7aa-11eb-85a7-f35ff7c2c569.jpeg)
 
 
 
 
 
+**#16 write a python program to create circular linked list**
 
-***write a python program to create circular linked list***
+**Code**
+```Python
 class Node:
      
     # Constructor to create  a new node
@@ -523,15 +674,20 @@ cllist.push(11)
  
 print "Contents of circular Linked List"
 cllist.printList()
+```
+
+**Output:**
 
 
- output:![ex16](https://user-images.githubusercontent.com/79211429/121030456-1df5cf00-c7c7-11eb-971b-f82ff75c9797.png)
+ ![ex16](https://user-images.githubusercontent.com/79211429/121030456-1df5cf00-c7c7-11eb-971b-f82ff75c9797.png)
  
  
  
 
-***write a python program to implement stack and its operations using list***
+**#17 write a python program to implement stack and its operations using list**
 
+**Code**
+```Python
 stack = []
  
 # append() function to push
@@ -553,16 +709,21 @@ print(stack.pop())
  
 print('\nStack after elements are poped:')
 print(stack)
+```
 
-output:![expt17](https://user-images.githubusercontent.com/79211429/121029213-0c5ff780-c7c6-11eb-9668-d45fc9370082.png)
-
-
-
+**output:**
 
 
-***write python program to implement queue and its operations using list***
+![expt17](https://user-images.githubusercontent.com/79211429/121029213-0c5ff780-c7c6-11eb-9668-d45fc9370082.png)
 
 
+
+
+
+**#18 write python program to implement queue and its operations using list**
+
+**Code**
+```Python
 Initializing a queue
 queue = []
 
@@ -586,13 +747,19 @@ print(queue)
 # Uncommenting print(queue.pop(0))
 # will raise and IndexError
 # as the queue is now empty
+```
 
-output:![python18](https://user-images.githubusercontent.com/79211429/121021352-ec790580-c7be-11eb-9667-451997d5936e.jpeg)
+**output:**
+
+
+![python18](https://user-images.githubusercontent.com/79211429/121021352-ec790580-c7be-11eb-9667-451997d5936e.jpeg)
 
 
 
-****write a program to create a balanced binary search tree (bst) using an array (given) elements where array elements are stored in ascending order***
+**#19 write a program to create a balanced binary search tree (bst) using an array (given) elements where array elements are stored in ascending order**
 
+**Code**
+```Python
 class TreeNode(object):
     def __init__(self, x):
         self.val = x
@@ -618,16 +785,20 @@ def preOrder(node):
     
 result = sorted_array_to_bst([1, 2, 3, 4, 5, 6, 7])
 preOrder(result)
+```
+
+**output:**
 
 
-output:![expt19](https://user-images.githubusercontent.com/79211429/121033383-c60c9780-c7c9-11eb-8809-e98e53d20ace.png)
+![expt19](https://user-images.githubusercontent.com/79211429/121033383-c60c9780-c7c9-11eb-8809-e98e53d20ace.png)
 
 
 
 
+**#20 write a python program to find kth smallest element in a given binary search tree**
 
-****write a python program to find kth smallest element in a given binary search tree***
-
+**Code**
+```Python
 class TreeNode(object):
     def __init__(self, x):
         self.val = x
@@ -659,7 +830,11 @@ root.right.right.left = TreeNode(22)
 
 print(kth_smallest(root, 2))
 print(kth_smallest(root, 3))
+```
 
-output:![expt20](https://user-images.githubusercontent.com/79211429/121034404-a0cc5900-c7ca-11eb-81dd-9f6b4eef8367.png)
+**output:**
+
+
+![expt20](https://user-images.githubusercontent.com/79211429/121034404-a0cc5900-c7ca-11eb-81dd-9f6b4eef8367.png)
 
 
